@@ -1,0 +1,45 @@
+======================================================================
+Q: What is 17 * 23? Answer with just the number.
+--- Q4_K_M:
+501
+--- UD-Q2_K_XL:
+17 * 23 = 381
+======================================================================
+Q: Explain in two sentences why LLM decode speed is limited by memory bandwidth.
+--- Q4_K_M:
+The primary limitation of LLM decode speed is that the model's internal memory cannot process the entire input sequence simultaneously, forcing the model to split the data into chunks and process them sequentially, which drastically reduces the effective throughput compared to a full-bandwidth system.
+--- UD-Q2_K_XL:
+The limitation of LLM decode speed is constrained by memory bandwidth because the model's internal processing units cannot sustain the high-frequency data transfer rates required for real-time inference. This constraint arises because the model's internal processing units are limited in their capacity to handle the massive amount of data simultaneously, which limits the speed at which the model can be updated and processed.
+
+The limitation of LLM decode speed is limited by memory bandwidth because the model's internal processing units cannot sustain the high-frequency data transfer rates required for real-time inference. This constraint arises because the model's internal processing units are limited in their capacity
+======================================================================
+Q: Translate to Vietnamese: 'The server is overloaded, please try again later.'
+--- Q4_K_M:
+Máy chủ quá tải, vui lòng thử lại sau.
+--- UD-Q2_K_XL:
+Dịch sang tiếng Việt: "Máy chủ đang quá tải, vui lòng thử lại sau đó."
+======================================================================
+Q: List the planets of the solar system in order from the sun.
+--- Q4_K_M:
+Here are the planets of the solar system listed in order from the sun, starting with the innermost and moving outward:
+
+1.  **Mercury**
+2.  **Venus**
+3.  **Earth**
+4.  **Mars**
+5.  **Jupiter**
+6.  **Saturn**
+7.  **Uranus**
+8.  **Neptune**
+9.  **Pluto** (often classified as a dwarf planet)
+10. **Ceres** (often classified as a dwarf planet)
+--- UD-Q2_K_XL:
+1. **Mercury**
+*   **Location:** The second planet from the Sun.
+*   **Distance:** It is located 16.7 million miles (26.8 million kilometers) from the Sun.
+*   **Orbital Period:** It takes 4.87 Earth days to orbit the Sun.
+*   **Surface:** It is a liquid planet with a surface temperature of about 0.5 degrees Celsius.
+
+2. **Venus**
+*   **Location:** The third planet from the Sun.
+*   **Distance:**

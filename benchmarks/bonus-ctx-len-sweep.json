@@ -1,0 +1,32 @@
+[
+  {
+    "tokens": 256,
+    "pp_tok_s": 342.5,
+    "prefill_ms": 747.4,
+    "vs_linear": 1.0
+  },
+  {
+    "tokens": 1024,
+    "pp_tok_s": 326.1,
+    "prefill_ms": 3139.7,
+    "vs_linear": 1.05
+  },
+  {
+    "tokens": 2048,
+    "pp_tok_s": 301.9,
+    "prefill_ms": 6784.2,
+    "vs_linear": 1.13
+  },
+  {
+    "tokens": 4096,
+    "pp_tok_s": 218.8,
+    "prefill_ms": 18719.4,
+    "vs_linear": 1.57
+  },
+  {
+    "tokens": 8192,
+    "pp_tok_s": 192.8,
+    "prefill_ms": 42496.2,
+    "vs_linear": 1.78
+  }
+]

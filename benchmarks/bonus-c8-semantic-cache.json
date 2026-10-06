@@ -1,0 +1,360 @@
+{
+  "prompts": [
+    "What is goodput at SLO?",
+    "Explain TTFT and TPOT.",
+    "Can you define goodput@SLO?",
+    "What does time to first token mean?",
+    "How does PagedAttention work?",
+    "Tell me what goodput@SLO is.",
+    "What is prefix caching?",
+    "Describe how PagedAttention works.",
+    "What is the capital of France?",
+    "Give me a recipe for banana pancakes.",
+    "How do I renew my passport?"
+  ],
+  "topic": [
+    "A",
+    "B",
+    "A",
+    "B",
+    "C",
+    "A",
+    "D",
+    "C",
+    "E",
+    "F",
+    "G"
+  ],
+  "pairs": [
+    {
+      "i": 1,
+      "j": 2,
+      "sim": 0.8602,
+      "paraphrase": false
+    },
+    {
+      "i": 1,
+      "j": 3,
+      "sim": 0.8985,
+      "paraphrase": true
+    },
+    {
+      "i": 1,
+      "j": 4,
+      "sim": 0.8503,
+      "paraphrase": false
+    },
+    {
+      "i": 1,
+      "j": 5,
+      "sim": 0.8523,
+      "paraphrase": false
+    },
+    {
+      "i": 1,
+      "j": 6,
+      "sim": 0.8859,
+      "paraphrase": true
+    },
+    {
+      "i": 1,
+      "j": 7,
+      "sim": 0.8627,
+      "paraphrase": false
+    },
+    {
+      "i": 1,
+      "j": 8,
+      "sim": 0.8554,
+      "paraphrase": false
+    },
+    {
+      "i": 1,
+      "j": 9,
+      "sim": 0.8134,
+      "paraphrase": false
+    },
+    {
+      "i": 1,
+      "j": 10,
+      "sim": 0.7104,
+      "paraphrase": false
+    },
+    {
+      "i": 1,
+      "j": 11,
+      "sim": 0.7818,
+      "paraphrase": false
+    },
+    {
+      "i": 2,
+      "j": 3,
+      "sim": 0.8538,
+      "paraphrase": false
+    },
+    {
+      "i": 2,
+      "j": 4,
+      "sim": 0.7683,
+      "paraphrase": true
+    },
+    {
+      "i": 2,
+      "j": 5,
+      "sim": 0.8311,
+      "paraphrase": false
+    },
+    {
+      "i": 2,
+      "j": 6,
+      "sim": 0.8439,
+      "paraphrase": false
+    },
+    {
+      "i": 2,
+      "j": 7,
+      "sim": 0.7671,
+      "paraphrase": false
+    },
+    {
+      "i": 2,
+      "j": 8,
+      "sim": 0.871,
+      "paraphrase": false
+    },
+    {
+      "i": 2,
+      "j": 9,
+      "sim": 0.6818,
+      "paraphrase": false
+    },
+    {
+      "i": 2,
+      "j": 10,
+      "sim": 0.6728,
+      "paraphrase": false
+    },
+    {
+      "i": 2,
+      "j": 11,
+      "sim": 0.7047,
+      "paraphrase": false
+    },
+    {
+      "i": 3,
+      "j": 4,
+      "sim": 0.8058,
+      "paraphrase": false
+    },
+    {
+      "i": 3,
+      "j": 5,
+      "sim": 0.8261,
+      "paraphrase": false
+    },
+    {
+      "i": 3,
+      "j": 6,
+      "sim": 0.9051,
+      "paraphrase": true
+    },
+    {
+      "i": 3,
+      "j": 7,
+      "sim": 0.7988,
+      "paraphrase": false
+    },
+    {
+      "i": 3,
+      "j": 8,
+      "sim": 0.8442,
+      "paraphrase": false
+    },
+    {
+      "i": 3,
+      "j": 9,
+      "sim": 0.6707,
+      "paraphrase": false
+    },
+    {
+      "i": 3,
+      "j": 10,
+      "sim": 0.711,
+      "paraphrase": false
+    },
+    {
+      "i": 3,
+      "j": 11,
+      "sim": 0.749,
+      "paraphrase": false
+    },
+    {
+      "i": 4,
+      "j": 5,
+      "sim": 0.7841,
+      "paraphrase": false
+    },
+    {
+      "i": 4,
+      "j": 6,
+      "sim": 0.7654,
+      "paraphrase": false
+    },
+    {
+      "i": 4,
+      "j": 7,
+      "sim": 0.8554,
+      "paraphrase": false
+    },
+    {
+      "i": 4,
+      "j": 8,
+      "sim": 0.7674,
+      "paraphrase": false
+    },
+    {
+      "i": 4,
+      "j": 9,
+      "sim": 0.7705,
+      "paraphrase": false
+    },
+    {
+      "i": 4,
+      "j": 10,
+      "sim": 0.6617,
+      "paraphrase": false
+    },
+    {
+      "i": 4,
+      "j": 11,
+      "sim": 0.766,
+      "paraphrase": false
+    },
+    {
+      "i": 5,
+      "j": 6,
+      "sim": 0.7861,
+      "paraphrase": false
+    },
+    {
+      "i": 5,
+      "j": 7,
+      "sim": 0.8122,
+      "paraphrase": false
+    },
+    {
+      "i": 5,
+      "j": 8,
+      "sim": 0.953,
+      "paraphrase": true
+    },
+    {
+      "i": 5,
+      "j": 9,
+      "sim": 0.6963,
+      "paraphrase": false
+    },
+    {
+      "i": 5,
+      "j": 10,
+      "sim": 0.6062,
+      "paraphrase": false
+    },
+    {
+      "i": 5,
+      "j": 11,
+      "sim": 0.7476,
+      "paraphrase": false
+    },
+    {
+      "i": 6,
+      "j": 7,
+      "sim": 0.7483,
+      "paraphrase": false
+    },
+    {
+      "i": 6,
+      "j": 8,
+      "sim": 0.8313,
+      "paraphrase": false
+    },
+    {
+      "i": 6,
+      "j": 9,
+      "sim": 0.683,
+      "paraphrase": false
+    },
+    {
+      "i": 6,
+      "j": 10,
+      "sim": 0.7786,
+      "paraphrase": false
+    },
+    {
+      "i": 6,
+      "j": 11,
+      "sim": 0.7021,
+      "paraphrase": false
+    },
+    {
+      "i": 7,
+      "j": 8,
+      "sim": 0.8069,
+      "paraphrase": false
+    },
+    {
+      "i": 7,
+      "j": 9,
+      "sim": 0.8152,
+      "paraphrase": false
+    },
+    {
+      "i": 7,
+      "j": 10,
+      "sim": 0.6567,
+      "paraphrase": false
+    },
+    {
+      "i": 7,
+      "j": 11,
+      "sim": 0.7499,
+      "paraphrase": false
+    },
+    {
+      "i": 8,
+      "j": 9,
+      "sim": 0.6998,
+      "paraphrase": false
+    },
+    {
+      "i": 8,
+      "j": 10,
+      "sim": 0.6615,
+      "paraphrase": false
+    },
+    {
+      "i": 8,
+      "j": 11,
+      "sim": 0.7228,
+      "paraphrase": false
+    },
+    {
+      "i": 9,
+      "j": 10,
+      "sim": 0.6751,
+      "paraphrase": false
+    },
+    {
+      "i": 9,
+      "j": 11,
+      "sim": 0.7919,
+      "paraphrase": false
+    },
+    {
+      "i": 10,
+      "j": 11,
+      "sim": 0.6919,
+      "paraphrase": false
+    }
+  ]
+}

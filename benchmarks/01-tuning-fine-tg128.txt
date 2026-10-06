@@ -1,0 +1,14 @@
+# llama-bench fine thread sweep (decode tg128), Qwen3.5-0.8B-Q4_K_M, ngl=0, reps=2
+# command: runtime/b10488/llama-bench.exe -m models/Qwen3.5-0.8B-Q4_K_M.gguf -p 0 -n 128 -r 2 -t 2,4,6,8,10,12,16 -ngl 0
+
+| model                          |       size |     params | backend    | threads |            test |                  t/s |
+| ------------------------------ | ---------: | ---------: | ---------- | ------: | --------------: | -------------------: |
+| qwen35 0.8B Q4_K - Medium      | 497.39 MiB |   752.39 M | CPU        |       2 |           tg128 |         37.94 ± 0.92 |
+| qwen35 0.8B Q4_K - Medium      | 497.39 MiB |   752.39 M | CPU        |       4 |           tg128 |         47.99 ± 0.01 |
+| qwen35 0.8B Q4_K - Medium      | 497.39 MiB |   752.39 M | CPU        |       6 |           tg128 |         49.87 ± 3.11 |
+| qwen35 0.8B Q4_K - Medium      | 497.39 MiB |   752.39 M | CPU        |       8 |           tg128 |         50.74 ± 0.24 |
+| qwen35 0.8B Q4_K - Medium      | 497.39 MiB |   752.39 M | CPU        |      10 |           tg128 |         51.31 ± 0.40 |
+| qwen35 0.8B Q4_K - Medium      | 497.39 MiB |   752.39 M | CPU        |      12 |           tg128 |         50.92 ± 0.05 |
+| qwen35 0.8B Q4_K - Medium      | 497.39 MiB |   752.39 M | CPU        |      16 |           tg128 |         47.01 ± 0.59 |
+
+build: 9d77fa172 (10488)

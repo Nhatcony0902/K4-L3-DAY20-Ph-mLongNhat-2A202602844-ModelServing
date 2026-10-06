@@ -1,0 +1,68 @@
+[
+  {
+    "cache_type": "f16",
+    "kv_mib": "384.0",
+    "mem_loaded_mb": 1163.6,
+    "mem_after_mb": 1225.8,
+    "prompt_tokens": 4768,
+    "ttft_cold_ms": 19524.3,
+    "tpot_ms_median": 30.01,
+    "accuracy": 10,
+    "answers": [
+      "4821",
+      "7395",
+      "2064",
+      "5537",
+      "9182",
+      "3476",
+      "6609",
+      "1748",
+      "8253",
+      "4930"
+    ]
+  },
+  {
+    "cache_type": "q8_0",
+    "kv_mib": "204.0",
+    "mem_loaded_mb": 984.4,
+    "mem_after_mb": 1046.0,
+    "prompt_tokens": 4768,
+    "ttft_cold_ms": 23331.9,
+    "tpot_ms_median": 34.36,
+    "accuracy": 10,
+    "answers": [
+      "4821",
+      "7395",
+      "2064",
+      "5537",
+      "9182",
+      "3476",
+      "6609",
+      "1748",
+      "8253",
+      "4930"
+    ]
+  },
+  {
+    "cache_type": "q4_0",
+    "kv_mib": "108.0",
+    "mem_loaded_mb": 887.8,
+    "mem_after_mb": 950.2,
+    "prompt_tokens": 4768,
+    "ttft_cold_ms": 27480.3,
+    "tpot_ms_median": 40.85,
+    "accuracy": 10,
+    "answers": [
+      "4821",
+      "7395",
+      "2064",
+      "5537",
+      "9182",
+      "3476",
+      "6609",
+      "1748",
+      "8253",
+      "4930"
+    ]
+  }
+]
